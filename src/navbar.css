@@ -1,0 +1,23 @@
+.cart-Icon {
+   height: 32;
+   margin-right: 20;
+}
+.nav {
+    height: 70;
+    background: '#4267b2';
+    display: 'flex';
+    justify-content: flex-end;
+    align-items: 'center';
+}
+.cart-Icon-Container {
+    position: 'relative';
+}
+.cart-count {
+    background: 'yellow';
+    border-radius: '50';
+    padding: '4px 8px';
+    position: 'absolute';
+    right: 0;
+    top: -9;
+
+}
