@@ -3,12 +3,12 @@ import React from 'react';
 
 
 const NavBar = (props) => {
- 
+ const {cartcount} = props;
         return (
             <div style={styles.nav}>
               <div style={styles.cartIconContainer}>
                 <img style={styles.cartIcon} src="https://www.flaticon.com/svg/static/icons/svg/833/833314.svg" alt="cartIcon" />
-                <span style={styles.cartcount}>3</span>
+                <span style={styles.cartcount}>{cartcount}</span>
               </div>
             </div>
         );
